@@ -1,0 +1,46 @@
+.TodoItem {
+    font-size: 19px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.09);
+    margin-bottom: 30px;
+}
+
+.TodoItem-span-check {
+    font-weight: bolder;
+    position: relative;
+    bottom: 0px;
+    left: 30px;
+    font-size: 30px;
+}
+.TodoItem-span-check:hover {
+    color: rgb(93, 155, 1);
+    cursor: pointer;
+}
+.span-check-completed {
+    color: rgb(93, 155, 1);
+}
+
+.TodoItem-text {
+    transition: all 0.5s;
+}
+.text-completed {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.TodoItem-span-delete {
+    transform: rotate(45deg);
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+    right: -10px;
+    font-weight: bolder;
+}
+.TodoItem-span-delete:hover {
+    color: rgb(228, 72, 72);
+    cursor: pointer;
+}

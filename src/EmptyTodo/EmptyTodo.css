@@ -1,0 +1,9 @@
+.EmptyTodo {
+    color: rgb(110, 110, 110);
+    margin-top: 20vh;
+    font-size: 40px;
+    text-align: center;
+}
+.EmptyTodo img {
+    width: 90px;
+}

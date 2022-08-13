@@ -1,0 +1,13 @@
+.TodoSearch {
+    font-size: 20px;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 50vw;
+    text-align: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.09);
+    margin-bottom: 26px;
+}
+.TodoSearch::placeholder {
+    opacity: 0.5;
+}
